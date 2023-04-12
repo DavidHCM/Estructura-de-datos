@@ -56,6 +56,20 @@ build CMakeFiles/Estructura_de_datos_class.dir/Act-repo_20/Act-1/test.c.obj: C_C
   OBJECT_DIR = CMakeFiles\Estructura_de_datos_class.dir
   OBJECT_FILE_DIR = CMakeFiles\Estructura_de_datos_class.dir\Act-repo_20\Act-1
 
+build CMakeFiles/Estructura_de_datos_class.dir/Act-repo_20/Act-1/stack.c.obj: C_COMPILER__Estructura_de_datos_class_Debug C$:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo$ 20/Act-1/stack.c || cmake_object_order_depends_target_Estructura_de_datos_class
+  DEP_FILE = CMakeFiles\Estructura_de_datos_class.dir\Act-repo_20\Act-1\stack.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  INCLUDES = -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 16/Act-1" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 16/Act-2" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 17/Act-1" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 19/Act-1" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 9/Actividad de sesion 9.1" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 9/Actividad de sesion 9.2"
+  OBJECT_DIR = CMakeFiles\Estructura_de_datos_class.dir
+  OBJECT_FILE_DIR = CMakeFiles\Estructura_de_datos_class.dir\Act-repo_20\Act-1
+
+build CMakeFiles/Estructura_de_datos_class.dir/Act-repo_20/Act-1/datatypes.c.obj: C_COMPILER__Estructura_de_datos_class_Debug C$:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo$ 20/Act-1/datatypes.c || cmake_object_order_depends_target_Estructura_de_datos_class
+  DEP_FILE = CMakeFiles\Estructura_de_datos_class.dir\Act-repo_20\Act-1\datatypes.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu11
+  INCLUDES = -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 16/Act-1" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 16/Act-2" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 17/Act-1" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 19/Act-1" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 9/Actividad de sesion 9.1" -I"C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo 9/Actividad de sesion 9.2"
+  OBJECT_DIR = CMakeFiles\Estructura_de_datos_class.dir
+  OBJECT_FILE_DIR = CMakeFiles\Estructura_de_datos_class.dir\Act-repo_20\Act-1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Estructura_de_datos_class
@@ -64,7 +78,7 @@ build CMakeFiles/Estructura_de_datos_class.dir/Act-repo_20/Act-1/test.c.obj: C_C
 #############################################
 # Link the executable Estructura_de_datos_class.exe
 
-build Estructura_de_datos_class.exe: C_EXECUTABLE_LINKER__Estructura_de_datos_class_Debug CMakeFiles/Estructura_de_datos_class.dir/Act-repo_20/Act-1/test.c.obj
+build Estructura_de_datos_class.exe: C_EXECUTABLE_LINKER__Estructura_de_datos_class_Debug CMakeFiles/Estructura_de_datos_class.dir/Act-repo_20/Act-1/test.c.obj CMakeFiles/Estructura_de_datos_class.dir/Act-repo_20/Act-1/stack.c.obj CMakeFiles/Estructura_de_datos_class.dir/Act-repo_20/Act-1/datatypes.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Estructura_de_datos_class.dir
