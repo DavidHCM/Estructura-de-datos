@@ -128,29 +128,29 @@ Estructura_de_datos_class/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/build
 .PHONY : Estructura_de_datos_class/fast
 
-Act-repo-21/Act-1/arbol.obj: Act-repo-21/Act-1/arbol.c.obj
-.PHONY : Act-repo-21/Act-1/arbol.obj
+Act-repo-21/Act-2/ValanceArbolBin.obj: Act-repo-21/Act-2/ValanceArbolBin.c.obj
+.PHONY : Act-repo-21/Act-2/ValanceArbolBin.obj
 
 # target to build an object file
-Act-repo-21/Act-1/arbol.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/arbol.c.obj
-.PHONY : Act-repo-21/Act-1/arbol.c.obj
+Act-repo-21/Act-2/ValanceArbolBin.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj
+.PHONY : Act-repo-21/Act-2/ValanceArbolBin.c.obj
 
-Act-repo-21/Act-1/arbol.i: Act-repo-21/Act-1/arbol.c.i
-.PHONY : Act-repo-21/Act-1/arbol.i
+Act-repo-21/Act-2/ValanceArbolBin.i: Act-repo-21/Act-2/ValanceArbolBin.c.i
+.PHONY : Act-repo-21/Act-2/ValanceArbolBin.i
 
 # target to preprocess a source file
-Act-repo-21/Act-1/arbol.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/arbol.c.i
-.PHONY : Act-repo-21/Act-1/arbol.c.i
+Act-repo-21/Act-2/ValanceArbolBin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.i
+.PHONY : Act-repo-21/Act-2/ValanceArbolBin.c.i
 
-Act-repo-21/Act-1/arbol.s: Act-repo-21/Act-1/arbol.c.s
-.PHONY : Act-repo-21/Act-1/arbol.s
+Act-repo-21/Act-2/ValanceArbolBin.s: Act-repo-21/Act-2/ValanceArbolBin.c.s
+.PHONY : Act-repo-21/Act-2/ValanceArbolBin.s
 
 # target to generate assembly for a file
-Act-repo-21/Act-1/arbol.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/arbol.c.s
-.PHONY : Act-repo-21/Act-1/arbol.c.s
+Act-repo-21/Act-2/ValanceArbolBin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.s
+.PHONY : Act-repo-21/Act-2/ValanceArbolBin.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Estructura_de_datos_class
-	@echo ... Act-repo-21/Act-1/arbol.obj
-	@echo ... Act-repo-21/Act-1/arbol.i
-	@echo ... Act-repo-21/Act-1/arbol.s
+	@echo ... Act-repo-21/Act-2/ValanceArbolBin.obj
+	@echo ... Act-repo-21/Act-2/ValanceArbolBin.i
+	@echo ... Act-repo-21/Act-2/ValanceArbolBin.s
 .PHONY : help
 
 

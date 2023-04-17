@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/arbol.c.obj"
-  "CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/arbol.c.obj.d"
+  "CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj"
+  "CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj.d"
   "Estructura_de_datos_class.exe"
   "Estructura_de_datos_class.exe.manifest"
   "Estructura_de_datos_class.pdb"
