@@ -10,7 +10,7 @@ struct STRTNODE
     struct STRTNODE *left,*right;
 };
 
-
+void treeinsert(struct STRTNODE **root,int n);
 
 int main()
 {
@@ -22,8 +22,32 @@ int main()
     {
         n = rand() % 100;
         printf("%d\t",n);
-        treeinsert(&root,i);
+        treeinsert(&root,n);
     }
 
     return 0;
+}
+
+
+void treeinsert(struct STRTNODE **root,int n)
+{
+    if(*root == NULL)
+    {
+        *root = malloc(sizeof(struct STRTNODE));
+        (*root)->num = n;
+        (*root)->left = NULL;
+        (*root)->right = NULL;
+    }
+    else  if(n > (*root)->num)
+    {
+    }
+    else if(n < (*root)->num)
+    {
+
+    }
+    else
+    {
+        
+    }
+
 }
