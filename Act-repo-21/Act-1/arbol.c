@@ -11,6 +11,7 @@ struct STRTNODE
 };
 
 void treeinsert(struct STRTNODE **root,int n);
+void treeinorder(struct STRTNODE *root);
 
 int main()
 {
@@ -18,12 +19,21 @@ int main()
     struct STRTNODE *root=NULL;
     srand(time(NULL));
 
+    printf("Numeros generados: \n");
     for(i=0;i<15;i++)
     {
         n = rand() % 100;
         printf("%d\t",n);
         treeinsert(&root,n);
     }
+
+    printf("El nodo raiz es: %d\n", root->num);
+
+    printf("Recorriedo en inorden\t");
+    treeinorder(root);
+
+    printf("\nRecorrido en orden");
+
 
     return 0;
 }
@@ -37,17 +47,28 @@ void treeinsert(struct STRTNODE **root,int n)
         (*root)->num = n;
         (*root)->left = NULL;
         (*root)->right = NULL;
+
     }
     else  if(n > (*root)->num)
     {
+
+        treeinsert(&(*root)->right,n);
     }
     else if(n < (*root)->num)
     {
 
-    }
-    else
-    {
-        
+        treeinsert(&(*root)->left,n);
     }
 
+
+}
+
+void treeinorder(struct STRTNODE *root)
+{
+    if(root != NULL)
+    {
+        treeinorder(root->left);
+        printf("%d\t",root->num);
+        treeinorder(root->right);
+    }
 }
