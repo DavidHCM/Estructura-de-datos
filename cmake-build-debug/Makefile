@@ -128,29 +128,29 @@ Estructura_de_datos_class/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/build
 .PHONY : Estructura_de_datos_class/fast
 
-Act-repo-21/Act-1/test.obj: Act-repo-21/Act-1/test.c.obj
-.PHONY : Act-repo-21/Act-1/test.obj
+Act-repo-21/Act-1/arbol.obj: Act-repo-21/Act-1/arbol.c.obj
+.PHONY : Act-repo-21/Act-1/arbol.obj
 
 # target to build an object file
-Act-repo-21/Act-1/test.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/test.c.obj
-.PHONY : Act-repo-21/Act-1/test.c.obj
+Act-repo-21/Act-1/arbol.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/arbol.c.obj
+.PHONY : Act-repo-21/Act-1/arbol.c.obj
 
-Act-repo-21/Act-1/test.i: Act-repo-21/Act-1/test.c.i
-.PHONY : Act-repo-21/Act-1/test.i
+Act-repo-21/Act-1/arbol.i: Act-repo-21/Act-1/arbol.c.i
+.PHONY : Act-repo-21/Act-1/arbol.i
 
 # target to preprocess a source file
-Act-repo-21/Act-1/test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/test.c.i
-.PHONY : Act-repo-21/Act-1/test.c.i
+Act-repo-21/Act-1/arbol.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/arbol.c.i
+.PHONY : Act-repo-21/Act-1/arbol.c.i
 
-Act-repo-21/Act-1/test.s: Act-repo-21/Act-1/test.c.s
-.PHONY : Act-repo-21/Act-1/test.s
+Act-repo-21/Act-1/arbol.s: Act-repo-21/Act-1/arbol.c.s
+.PHONY : Act-repo-21/Act-1/arbol.s
 
 # target to generate assembly for a file
-Act-repo-21/Act-1/test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/test.c.s
-.PHONY : Act-repo-21/Act-1/test.c.s
+Act-repo-21/Act-1/arbol.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-1/arbol.c.s
+.PHONY : Act-repo-21/Act-1/arbol.c.s
 
 # Help Target
 help:
@@ -161,9 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Estructura_de_datos_class
-	@echo ... Act-repo-21/Act-1/test.obj
-	@echo ... Act-repo-21/Act-1/test.i
-	@echo ... Act-repo-21/Act-1/test.s
+	@echo ... Act-repo-21/Act-1/arbol.obj
+	@echo ... Act-repo-21/Act-1/arbol.i
+	@echo ... Act-repo-21/Act-1/arbol.s
 .PHONY : help
 
 

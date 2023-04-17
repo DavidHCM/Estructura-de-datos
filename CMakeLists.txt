@@ -13,4 +13,4 @@ include_directories("Act-repo 9/Actividad de sesion 9.2")
 include_directories("Act-repo 9/Actividad de sesion 9.2")
 include_directories("Act-repo 9/Actividad de sesion 9.2")
 
-add_executable(Estructura_de_datos_class "Act-repo-21/Act-1/test.c" )
+add_executable(Estructura_de_datos_class "Act-repo-21/Act-1/arbol.c" )
