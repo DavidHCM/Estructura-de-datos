@@ -14,6 +14,7 @@ int treeinsert(struct STRTNODE **root,int n);
 void tree_inorder(struct STRTNODE *root);
 void tree_preorder(struct STRTNODE *root);
 void tree_postorder(struct STRTNODE *root);
+void tree_print(int level,struct STRTNODE *root);
 
 int main()
 {
@@ -41,6 +42,9 @@ int main()
 
     printf("\nRecorrido en postorder\n");
     tree_postorder(root);
+
+    printf("\n\nArbol\n\n");
+    tree_print(0,root);
 
 }
 
@@ -90,5 +94,21 @@ void tree_postorder(struct STRTNODE *root)
         tree_postorder(root->left);
         tree_postorder(root->right);
         printf("%d\t",root->num);
+    }
+}
+
+
+void tree_print(int level,struct STRTNODE *root)
+{
+    int i;
+    if(root!=NULL)
+    {
+        tree_print(level+1,root->right);
+
+        for(i=0;i<level;i++)
+            printf("\t");
+        printf("[%d]\n",root->num);
+
+        tree_print(level+1,root->left);
     }
 }
