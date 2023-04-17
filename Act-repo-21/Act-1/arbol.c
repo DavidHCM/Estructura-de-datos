@@ -4,71 +4,91 @@
 
 // Arboles binarios
 
-struct STRTNODE
-{
+struct STRTNODE {
     int num;
-    struct STRTNODE *left,*right;
+    struct STRTNODE *left;
+    struct STRTNODE *right;
 };
 
-void treeinsert(struct STRTNODE **root,int n);
-void treeinorder(struct STRTNODE *root);
+int treeinsert(struct STRTNODE **root,int n);
+void tree_inorder(struct STRTNODE *root);
+void tree_preorder(struct STRTNODE *root);
+void tree_postorder(struct STRTNODE *root);
 
 int main()
 {
-    int i=0,n=0;
+    int i,n;
     struct STRTNODE *root=NULL;
+
     srand(time(NULL));
 
-    printf("Numeros generados: \n");
+    printf("Numeros generados\n");
     for(i=0;i<15;i++)
     {
-        n = rand() % 100;
+        n= rand() % 100;
         printf("%d\t",n);
-        treeinsert(&root,n);
+        if(!treeinsert(&root,n))
+            printf("(Repetido %d)\t",n);
     }
 
-    printf("El nodo raiz es: %d\n", root->num);
+    printf("\nNodo raiz = %d\n",root->num);
 
-    printf("Recorriedo en inorden\t");
-    treeinorder(root);
+    printf("\nRecorrido en inorden\n");
+    tree_inorder(root);
 
-    printf("\nRecorrido en orden");
+    printf("\nRecorrido en preorden\n");
+    tree_preorder(root);
 
+    printf("\nRecorrido en postorder\n");
+    tree_postorder(root);
 
-    return 0;
 }
 
-
-void treeinsert(struct STRTNODE **root,int n)
+int treeinsert(struct STRTNODE **root,int n)
 {
-    if(*root == NULL)
+    int retval = 0;
+    if(*root==NULL)
     {
         *root = malloc(sizeof(struct STRTNODE));
         (*root)->num = n;
         (*root)->left = NULL;
         (*root)->right = NULL;
-
-    }
-    else  if(n > (*root)->num)
-    {
-
-        treeinsert(&(*root)->right,n);
+        retval = 1;
     }
     else if(n < (*root)->num)
-    {
+        retval = treeinsert(&(*root)->left,n);
+    else if(n > (*root)->num)
+        retval = treeinsert(&(*root)->right,n);
 
-        treeinsert(&(*root)->left,n);
-    }
-
-
+    return retval;
 }
 
-void treeinorder(struct STRTNODE *root)
+void tree_inorder(struct STRTNODE *root)
 {
-    if(root != NULL)
+    if(root!=NULL)
     {
-        treeinorder(root->left);
+        tree_inorder(root->left);
         printf("%d\t",root->num);
-        treeinorder(root->right);
+        tree_inorder(root->right);
+    }
+}
+
+void tree_preorder(struct STRTNODE *root)
+{
+    if(root!=NULL)
+    {
+        printf("%d\t",root->num);
+        tree_preorder(root->left);
+        tree_preorder(root->right);
+    }
+}
+
+void tree_postorder(struct STRTNODE *root)
+{
+    if(root!=NULL)
+    {
+        tree_postorder(root->left);
+        tree_postorder(root->right);
+        printf("%d\t",root->num);
     }
 }
