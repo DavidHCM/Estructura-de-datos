@@ -10,12 +10,14 @@ void print_color(TYPE data);
 
 int main()
 {
-    SET s1 = set_create(comparador_enteros,print_entero);
+    SET s1 = set_create(comparador_colores,print_color);
     set_add(s1,"ROJO");
     set_add(s1,"NEGRO");
     set_add(s1,"VERDE");
     set_add(s1,"AZUL");
 
+    printf("Tamano: %d", set_size(s1));
+    set_print(s1);
 }
 
 /*
@@ -34,13 +36,13 @@ int comparador_enteros(TYPE a,TYPE b)
 int color_code(char *color_name)
 {
     int retval = 0;
-    if(strcmp(color_name,"NEGRO"))
+    if(strcmp(color_name,"NEGRO")==0)
         retval = 0;
-    if(strcmp(color_name,"ROJO"))
+    if(strcmp(color_name,"ROJO")==0)
         retval = 1;
-    if(strcmp(color_name,"VERDE"))
+    if(strcmp(color_name,"VERDE")==0)
         retval = 2;
-    if(strcmp(color_name,"AZUL"))
+    if(strcmp(color_name,"AZUL")==0)
         retval = 3;
 
     return retval;
@@ -48,7 +50,7 @@ int color_code(char *color_name)
 
 int comparador_colores(TYPE color1,TYPE color2)
 {
-    return(color_code(color1) - color_code(color1));
+    return(color_code(color1) - color_code(color2));
 }
 
 void print_entero(TYPE data)
@@ -58,7 +60,7 @@ void print_entero(TYPE data)
 
 void print_color(TYPE data)
 {
-    printf("\n{\n");
-    printf("\t\"color\":\"%s\"\n",(char *) data);
-    printf("}\n");
+    printf("\n{");
+    printf("\"color\":\"%s\"",(char *) data);
+    printf("}");
 }

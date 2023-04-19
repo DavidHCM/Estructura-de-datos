@@ -2,16 +2,16 @@
 
 // Funciones de arbol
 
-TYPE tree_insert(struct STRTNODE **root,TYPE n,COMPAREFUNC cf)
+int tree_insert(struct STRTNODE **root,TYPE n,COMPAREFUNC cf)
 {
-    TYPE retval = 0;
+    int retval = 0;
     if(*root==NULL)
     {
         *root = malloc(sizeof(struct STRTNODE));
         (*root)->elem = n;
         (*root)->left = NULL;
         (*root)->right = NULL;
-        retval = (TYPE) 1;
+        retval = 1;
     }
     else if(cf(n,(*root)->elem)<0)
     {
@@ -22,6 +22,21 @@ TYPE tree_insert(struct STRTNODE **root,TYPE n,COMPAREFUNC cf)
         retval = tree_insert(&(*root)->right,n,cf);
     }
     return retval;
+}
+
+void tree_print(int level,struct STRTNODE *root,PRINTFUNC pf)
+{
+    int i;
+    if(root!=NULL)
+    {
+        tree_print(level+1,root->right,pf);
+
+        for(i=0;i<level;i++)
+            printf("\t");
+        pf(root->elem);
+
+        tree_print(level+1,root->left,pf);
+    }
 }
 
 // Funciones de manejo de SET
@@ -44,5 +59,15 @@ void set_add(SET set,TYPE e)
         set->size += 1;
 
     }
+}
+
+int set_size(SET set)
+{
+    return set->size;
+}
+
+void set_print(SET set)
+{
+    tree_print(0,set->tree_root,set->pf);
 }
 
