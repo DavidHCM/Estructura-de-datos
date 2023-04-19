@@ -90,7 +90,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-21/Act-2/ValanceArbolBin.c">
+		<Unit filename="C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-22/Act-1/datatypes.c">
+			<Option target="Estructura_de_datos_class"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-22/Act-1/datatypes.h">
+			<Option target="Estructura_de_datos_class"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-22/Act-1/justset.c">
+			<Option target="Estructura_de_datos_class"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-22/Act-1/set.c">
+			<Option target="Estructura_de_datos_class"/>
+		</Unit>
+		<Unit filename="C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-22/Act-1/set.h">
 			<Option target="Estructura_de_datos_class"/>
 		</Unit>
 		<Unit filename="C:/Users/david/Documents/GitHub/Estructura-de-datos-class/CMakeLists.txt">

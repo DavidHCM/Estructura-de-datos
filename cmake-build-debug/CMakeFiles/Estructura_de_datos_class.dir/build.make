@@ -68,34 +68,68 @@ include CMakeFiles/Estructura_de_datos_class.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Estructura_de_datos_class.dir/flags.make
 
-CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj: CMakeFiles/Estructura_de_datos_class.dir/flags.make
-CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj: CMakeFiles/Estructura_de_datos_class.dir/includes_C.rsp
-CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj: C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-21/Act-2/ValanceArbolBin.c
-CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj: CMakeFiles/Estructura_de_datos_class.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj -MF CMakeFiles\Estructura_de_datos_class.dir\Act-repo-21\Act-2\ValanceArbolBin.c.obj.d -o CMakeFiles\Estructura_de_datos_class.dir\Act-repo-21\Act-2\ValanceArbolBin.c.obj -c C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-21\Act-2\ValanceArbolBin.c
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj: CMakeFiles/Estructura_de_datos_class.dir/flags.make
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj: CMakeFiles/Estructura_de_datos_class.dir/includes_C.rsp
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj: C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-22/Act-1/justset.c
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj: CMakeFiles/Estructura_de_datos_class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj -MF CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\justset.c.obj.d -o CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\justset.c.obj -c C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\justset.c
 
-CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-21\Act-2\ValanceArbolBin.c > CMakeFiles\Estructura_de_datos_class.dir\Act-repo-21\Act-2\ValanceArbolBin.c.i
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\justset.c > CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\justset.c.i
 
-CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-21\Act-2\ValanceArbolBin.c -o CMakeFiles\Estructura_de_datos_class.dir\Act-repo-21\Act-2\ValanceArbolBin.c.s
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\justset.c -o CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\justset.c.s
+
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj: CMakeFiles/Estructura_de_datos_class.dir/flags.make
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj: CMakeFiles/Estructura_de_datos_class.dir/includes_C.rsp
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj: C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-22/Act-1/set.c
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj: CMakeFiles/Estructura_de_datos_class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj -MF CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\set.c.obj.d -o CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\set.c.obj -c C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\set.c
+
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\set.c > CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\set.c.i
+
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\set.c -o CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\set.c.s
+
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj: CMakeFiles/Estructura_de_datos_class.dir/flags.make
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj: CMakeFiles/Estructura_de_datos_class.dir/includes_C.rsp
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj: C:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-22/Act-1/datatypes.c
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj: CMakeFiles/Estructura_de_datos_class.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj -MF CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\datatypes.c.obj.d -o CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\datatypes.c.obj -c C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\datatypes.c
+
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\datatypes.c > CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\datatypes.c.i
+
+CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.4\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\david\Documents\GitHub\Estructura-de-datos-class\Act-repo-22\Act-1\datatypes.c -o CMakeFiles\Estructura_de_datos_class.dir\Act-repo-22\Act-1\datatypes.c.s
 
 # Object files for target Estructura_de_datos_class
 Estructura_de_datos_class_OBJECTS = \
-"CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj"
+"CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj" \
+"CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj" \
+"CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj"
 
 # External object files for target Estructura_de_datos_class
 Estructura_de_datos_class_EXTERNAL_OBJECTS =
 
-Estructura_de_datos_class.exe: CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj
+Estructura_de_datos_class.exe: CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj
+Estructura_de_datos_class.exe: CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj
+Estructura_de_datos_class.exe: CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj
 Estructura_de_datos_class.exe: CMakeFiles/Estructura_de_datos_class.dir/build.make
 Estructura_de_datos_class.exe: CMakeFiles/Estructura_de_datos_class.dir/linkLibs.rsp
 Estructura_de_datos_class.exe: CMakeFiles/Estructura_de_datos_class.dir/objects1
 Estructura_de_datos_class.exe: CMakeFiles/Estructura_de_datos_class.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Estructura_de_datos_class.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable Estructura_de_datos_class.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Estructura_de_datos_class.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

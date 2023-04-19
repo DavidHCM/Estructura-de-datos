@@ -13,4 +13,4 @@ include_directories("Act-repo 9/Actividad de sesion 9.2")
 include_directories("Act-repo 9/Actividad de sesion 9.2")
 include_directories("Act-repo 9/Actividad de sesion 9.2")
 
-add_executable(Estructura_de_datos_class "Act-repo-21/Act-2/ValanceArbolBin.c" )
+add_executable(Estructura_de_datos_class Act-repo-22/Act-1/justset.c Act-repo-22/Act-1/set.c Act-repo-22/Act-1/set.h Act-repo-22/Act-1/datatypes.h Act-repo-22/Act-1/datatypes.c)

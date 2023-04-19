@@ -80,12 +80,12 @@ clean: CMakeFiles/Estructura_de_datos_class.dir/clean
 CMakeFiles/Estructura_de_datos_class.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Estructura_de_datos_class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Estructura_de_datos_class"
 .PHONY : CMakeFiles/Estructura_de_datos_class.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Estructura_de_datos_class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Estructura_de_datos_class.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\david\Documents\GitHub\Estructura-de-datos-class\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Estructura_de_datos_class.dir/rule

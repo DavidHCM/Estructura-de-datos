@@ -128,29 +128,77 @@ Estructura_de_datos_class/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/build
 .PHONY : Estructura_de_datos_class/fast
 
-Act-repo-21/Act-2/ValanceArbolBin.obj: Act-repo-21/Act-2/ValanceArbolBin.c.obj
-.PHONY : Act-repo-21/Act-2/ValanceArbolBin.obj
+Act-repo-22/Act-1/datatypes.obj: Act-repo-22/Act-1/datatypes.c.obj
+.PHONY : Act-repo-22/Act-1/datatypes.obj
 
 # target to build an object file
-Act-repo-21/Act-2/ValanceArbolBin.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.obj
-.PHONY : Act-repo-21/Act-2/ValanceArbolBin.c.obj
+Act-repo-22/Act-1/datatypes.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.obj
+.PHONY : Act-repo-22/Act-1/datatypes.c.obj
 
-Act-repo-21/Act-2/ValanceArbolBin.i: Act-repo-21/Act-2/ValanceArbolBin.c.i
-.PHONY : Act-repo-21/Act-2/ValanceArbolBin.i
+Act-repo-22/Act-1/datatypes.i: Act-repo-22/Act-1/datatypes.c.i
+.PHONY : Act-repo-22/Act-1/datatypes.i
 
 # target to preprocess a source file
-Act-repo-21/Act-2/ValanceArbolBin.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.i
-.PHONY : Act-repo-21/Act-2/ValanceArbolBin.c.i
+Act-repo-22/Act-1/datatypes.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.i
+.PHONY : Act-repo-22/Act-1/datatypes.c.i
 
-Act-repo-21/Act-2/ValanceArbolBin.s: Act-repo-21/Act-2/ValanceArbolBin.c.s
-.PHONY : Act-repo-21/Act-2/ValanceArbolBin.s
+Act-repo-22/Act-1/datatypes.s: Act-repo-22/Act-1/datatypes.c.s
+.PHONY : Act-repo-22/Act-1/datatypes.s
 
 # target to generate assembly for a file
-Act-repo-21/Act-2/ValanceArbolBin.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-21/Act-2/ValanceArbolBin.c.s
-.PHONY : Act-repo-21/Act-2/ValanceArbolBin.c.s
+Act-repo-22/Act-1/datatypes.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/datatypes.c.s
+.PHONY : Act-repo-22/Act-1/datatypes.c.s
+
+Act-repo-22/Act-1/justset.obj: Act-repo-22/Act-1/justset.c.obj
+.PHONY : Act-repo-22/Act-1/justset.obj
+
+# target to build an object file
+Act-repo-22/Act-1/justset.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.obj
+.PHONY : Act-repo-22/Act-1/justset.c.obj
+
+Act-repo-22/Act-1/justset.i: Act-repo-22/Act-1/justset.c.i
+.PHONY : Act-repo-22/Act-1/justset.i
+
+# target to preprocess a source file
+Act-repo-22/Act-1/justset.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.i
+.PHONY : Act-repo-22/Act-1/justset.c.i
+
+Act-repo-22/Act-1/justset.s: Act-repo-22/Act-1/justset.c.s
+.PHONY : Act-repo-22/Act-1/justset.s
+
+# target to generate assembly for a file
+Act-repo-22/Act-1/justset.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/justset.c.s
+.PHONY : Act-repo-22/Act-1/justset.c.s
+
+Act-repo-22/Act-1/set.obj: Act-repo-22/Act-1/set.c.obj
+.PHONY : Act-repo-22/Act-1/set.obj
+
+# target to build an object file
+Act-repo-22/Act-1/set.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.obj
+.PHONY : Act-repo-22/Act-1/set.c.obj
+
+Act-repo-22/Act-1/set.i: Act-repo-22/Act-1/set.c.i
+.PHONY : Act-repo-22/Act-1/set.i
+
+# target to preprocess a source file
+Act-repo-22/Act-1/set.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.i
+.PHONY : Act-repo-22/Act-1/set.c.i
+
+Act-repo-22/Act-1/set.s: Act-repo-22/Act-1/set.c.s
+.PHONY : Act-repo-22/Act-1/set.s
+
+# target to generate assembly for a file
+Act-repo-22/Act-1/set.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructura_de_datos_class.dir\build.make CMakeFiles/Estructura_de_datos_class.dir/Act-repo-22/Act-1/set.c.s
+.PHONY : Act-repo-22/Act-1/set.c.s
 
 # Help Target
 help:
@@ -161,9 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Estructura_de_datos_class
-	@echo ... Act-repo-21/Act-2/ValanceArbolBin.obj
-	@echo ... Act-repo-21/Act-2/ValanceArbolBin.i
-	@echo ... Act-repo-21/Act-2/ValanceArbolBin.s
+	@echo ... Act-repo-22/Act-1/datatypes.obj
+	@echo ... Act-repo-22/Act-1/datatypes.i
+	@echo ... Act-repo-22/Act-1/datatypes.s
+	@echo ... Act-repo-22/Act-1/justset.obj
+	@echo ... Act-repo-22/Act-1/justset.i
+	@echo ... Act-repo-22/Act-1/justset.s
+	@echo ... Act-repo-22/Act-1/set.obj
+	@echo ... Act-repo-22/Act-1/set.i
+	@echo ... Act-repo-22/Act-1/set.s
 .PHONY : help
 
 
