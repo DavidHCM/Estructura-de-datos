@@ -3,4 +3,4 @@ project(Act_2 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Act_2 main.c)
+add_executable(Act_2 usepq.c datatypes.h datatypes.c priorityqueue.h priorityqueue.c)

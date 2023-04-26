@@ -1,0 +1,27 @@
+# ninja log v5
+2	110	7042300422313783	build.ninja	8b0f5ae6e901ec43
+0	80	7042300423313801	CMakeFiles/Act_2.dir/priorityqueue.c.obj	a2ca6d5f442c3279
+8	88	7042300423399204	CMakeFiles/Act_2.dir/datatypes.c.obj	9c8071f1470a5d76
+3	81	7042300526496023	CMakeFiles/Act_2.dir/usepq.c.obj	5ba992b7dda76ad0
+81	172	7042300527348904	Act_2.exe	bf1fa2ae35dc197f
+2	83	7042300902241002	CMakeFiles/Act_2.dir/usepq.c.obj	5ba992b7dda76ad0
+84	184	7042300903172878	Act_2.exe	bf1fa2ae35dc197f
+2	78	7042301339070452	CMakeFiles/Act_2.dir/priorityqueue.c.obj	a2ca6d5f442c3279
+78	174	7042301339982409	Act_2.exe	bf1fa2ae35dc197f
+2	77	7042301515884931	CMakeFiles/Act_2.dir/priorityqueue.c.obj	a2ca6d5f442c3279
+79	196	7042301516965206	Act_2.exe	bf1fa2ae35dc197f
+2	78	7042301944242462	CMakeFiles/Act_2.dir/usepq.c.obj	5ba992b7dda76ad0
+79	184	7042301945247316	Act_2.exe	bf1fa2ae35dc197f
+8	84	7042302255398667	CMakeFiles/Act_2.dir/priorityqueue.c.obj	a2ca6d5f442c3279
+2	84	7042302255410026	CMakeFiles/Act_2.dir/usepq.c.obj	5ba992b7dda76ad0
+84	178	7042302256289948	Act_2.exe	bf1fa2ae35dc197f
+2	83	7042302341850804	CMakeFiles/Act_2.dir/priorityqueue.c.obj	a2ca6d5f442c3279
+83	184	7042302342789800	Act_2.exe	bf1fa2ae35dc197f
+2	82	7042303292247017	CMakeFiles/Act_2.dir/usepq.c.obj	5ba992b7dda76ad0
+8	83	7042303292236707	CMakeFiles/Act_2.dir/priorityqueue.c.obj	a2ca6d5f442c3279
+83	186	7042303293206688	Act_2.exe	bf1fa2ae35dc197f
+2	84	7042303796500095	CMakeFiles/Act_2.dir/usepq.c.obj	5ba992b7dda76ad0
+84	182	7042303797421568	Act_2.exe	bf1fa2ae35dc197f
+2	80	7042304734578251	CMakeFiles/Act_2.dir/usepq.c.obj	5ba992b7dda76ad0
+8	80	7042304734578251	CMakeFiles/Act_2.dir/priorityqueue.c.obj	a2ca6d5f442c3279
+80	174	7042304735464698	Act_2.exe	bf1fa2ae35dc197f
