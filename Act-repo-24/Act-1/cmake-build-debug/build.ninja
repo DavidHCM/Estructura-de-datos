@@ -55,14 +55,14 @@ build CMakeFiles/Act_1.dir/test.c.obj: C_COMPILER__Act_1_Debug C$:/Users/david/D
   OBJECT_DIR = CMakeFiles\Act_1.dir
   OBJECT_FILE_DIR = CMakeFiles\Act_1.dir
 
-build CMakeFiles/Act_1.dir/priorityqueue.c.obj: C_COMPILER__Act_1_Debug C$:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-24/Act-1/priorityqueue.c || cmake_object_order_depends_target_Act_1
-  DEP_FILE = CMakeFiles\Act_1.dir\priorityqueue.c.obj.d
+build CMakeFiles/Act_1.dir/datatypes.c.obj: C_COMPILER__Act_1_Debug C$:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-24/Act-1/datatypes.c || cmake_object_order_depends_target_Act_1
+  DEP_FILE = CMakeFiles\Act_1.dir\datatypes.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Act_1.dir
   OBJECT_FILE_DIR = CMakeFiles\Act_1.dir
 
-build CMakeFiles/Act_1.dir/datatypes.c.obj: C_COMPILER__Act_1_Debug C$:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-24/Act-1/datatypes.c || cmake_object_order_depends_target_Act_1
-  DEP_FILE = CMakeFiles\Act_1.dir\datatypes.c.obj.d
+build CMakeFiles/Act_1.dir/priorityqueue.c.obj: C_COMPILER__Act_1_Debug C$:/Users/david/Documents/GitHub/Estructura-de-datos-class/Act-repo-24/Act-1/priorityqueue.c || cmake_object_order_depends_target_Act_1
+  DEP_FILE = CMakeFiles\Act_1.dir\priorityqueue.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
   OBJECT_DIR = CMakeFiles\Act_1.dir
   OBJECT_FILE_DIR = CMakeFiles\Act_1.dir
@@ -75,7 +75,7 @@ build CMakeFiles/Act_1.dir/datatypes.c.obj: C_COMPILER__Act_1_Debug C$:/Users/da
 #############################################
 # Link the executable Act_1.exe
 
-build Act_1.exe: C_EXECUTABLE_LINKER__Act_1_Debug CMakeFiles/Act_1.dir/test.c.obj CMakeFiles/Act_1.dir/priorityqueue.c.obj CMakeFiles/Act_1.dir/datatypes.c.obj
+build Act_1.exe: C_EXECUTABLE_LINKER__Act_1_Debug CMakeFiles/Act_1.dir/test.c.obj CMakeFiles/Act_1.dir/datatypes.c.obj CMakeFiles/Act_1.dir/priorityqueue.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Act_1.dir
