@@ -4,6 +4,18 @@
 // Funcion Hash
 #define M 12
 
+struct LNODE{
+    char key[60];
+    char data[80];
+    struct LNODE *next, *prev;
+};
+
+struct STRMAP {
+    struct LNONDE *first,*last;
+
+};
+
+struct STRMAP tabla[M];
 
 unsigned long long hash(char *s);
 
@@ -11,7 +23,7 @@ unsigned long long hash(char *s);
 int main() {
     char key[60];
     unsigned long long hashCode;
-
+    int p;
 
     do {
         printf("Ingresa la llave (FIN to terminate): ");
@@ -21,7 +33,9 @@ int main() {
             break;
         }
         hashCode = hash(key);
-        printf("Posicion en la tabla: %d\n",(int) hashCode % M);
+        p =(int) hashCode % M;
+        // Falta insertar un nodo en la lista p correspondiente
+        printf("Posicion en la tabla: %d\n",p);
         printf("El codigo hash es %016llx\n",hashCode);
     }while(1);
 
