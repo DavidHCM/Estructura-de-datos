@@ -22,6 +22,7 @@ unsigned long long hash(char *s);
 
 int main() {
     char key[60];
+    char nombre[80];
     unsigned long long hashCode;
     int p;
 
@@ -32,11 +33,14 @@ int main() {
         {
             break;
         }
+        printf("Nombre completo");
+        scanf("%s",nombre);
         hashCode = hash(key);
         p =(int) hashCode % M;
-        // Falta insertar un nodo en la lista p correspondiente
         printf("Posicion en la tabla: %d\n",p);
         printf("El codigo hash es %016llx\n",hashCode);
+
+        // Falta insertar un nodo en la lista p correspondiente que tenga la llave y el nombre
     }while(1);
 
     return 0;
