@@ -2,6 +2,8 @@
 #include <string.h>
 #include <ctype.h>
 // Funcion Hash
+#define M 12
+
 
 unsigned long long hash(char *s);
 
@@ -19,6 +21,7 @@ int main() {
             break;
         }
         hashCode = hash(key);
+        printf("Posicion en la tabla: %d\n",(int) hashCode % M);
         printf("El codigo hash es %016llx\n",hashCode);
     }while(1);
 
@@ -30,11 +33,11 @@ unsigned long long hash(char *s)
 {
     int len = strlen(s);
     unsigned long long retcode = 0;
-    int i;
+    int i = 0;
     char c;
-    if(len > 30)
+    if(len > 12)
     {
-        len = 30;
+        len = 12;
     }
 
     while(i<len && s[i] != '\0')
